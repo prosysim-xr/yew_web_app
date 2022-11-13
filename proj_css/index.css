@@ -1,0 +1,70 @@
+h1 {text-align: center;}
+.horizontal_div{
+    border: 10px outset red;
+    background-color: lightblue;
+    text-align: center;
+  }
+
+/*.horizontal > div{
+    height: 50%;
+    width: 100%;
+  }*/
+
+.vertical_div{
+    border: 20px outset rgb(255, 0, 242);
+    background-color: lightblue;
+    text-align: center;
+  }
+
+
+div{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}.one{
+    background-color:limegreen;    
+    float: left;  
+    padding: 10px;
+    height: 150px;
+    width:30%;
+}.two{
+    background-color:orange;
+    float: left;
+    padding: 10px; 
+    height: 150px;
+    width:30%;
+}.three{
+    background-color: red;
+    float: left;
+    padding: 10px;     
+    height: 150px;
+    width:30%;
+}.one_vert{
+    background-color:cyan;
+    padding: 30px;
+    height: 150px;
+    width:90%;    
+}.two_vert{
+    background-color:magenta;
+    padding: 30px;
+    height: 150px;
+    width:90%;
+}.three_vert{
+    background-color: yellow;
+    padding: 30px;
+    height: 150px;
+    width:90%;
+}
+
+.btn{
+    background-color:rgb(238, 0, 8);
+    border: none;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}.btn:hover{
+    background-color: rgb(0, 81, 255);
+}
